@@ -1,3 +1,4 @@
-executable('toto2', files('b.c'),
+executable('toto2',
+           files('main.c'),
            include_directories: [] + include_directories('.')
           )

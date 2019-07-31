@@ -1,6 +1,7 @@
 ic = []
 ic += include_directories('.')
 
-executable('toto', 'a.c',
+executable('toto',
+           'main.c',
            include_directories: ic
           )
