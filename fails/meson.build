@@ -1,4 +1,6 @@
-executable('toto2',
+ic = [] + include_directories('.')
+
+executable('toto',
            files(join_paths('..', 'main.c')),
-           include_directories: [] + include_directories('.')
+           include_directories: ic
           )
